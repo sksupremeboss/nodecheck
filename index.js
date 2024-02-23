@@ -4,7 +4,7 @@ const http=require("http");
 
 const fs=require("fs");
 
-const PORT=30500;
+const PORT=25500;
 const hostname="localhost";
 
 const home=fs.readFileSync("./index.html","utf-8");
